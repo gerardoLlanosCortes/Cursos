@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "id": "lrb3lpai",
+      "plato": "Carne con champiñón",
+      "descripcion": "Carne hecha con champiñónes",
+      "precio": 7000
+    },
+    {
+      "plato": "Pescado",
+      "descripcion": "Pescado a la leña",
+      "precio": "3000",
+      "id": "lrc9wnx5"
+    }
+  ]
+}

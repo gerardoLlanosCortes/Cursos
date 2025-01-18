@@ -1,0 +1,48 @@
+{
+  "clientes": [
+    {
+      "nombre": "Juan (ACTUALIZADO)",
+      "empresa": "Codigo Con Juan",
+      "email": "juan@juan.com",
+      "telefono": "102013313",
+      "notas": "se actualiza",
+      "id": "068a"
+    },
+    {
+      "id": "068e",
+      "nombre": "Karen",
+      "telefono": 138198313,
+      "email": "karen@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "068f",
+      "nombre": "Josue",
+      "telefono": 31983913,
+      "email": "josue@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "068g",
+      "nombre": "Miguel",
+      "telefono": 319381983,
+      "email": "miguel@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "068h",
+      "nombre": "Pedro",
+      "telefono": 1398198938,
+      "email": "pedro@juan.com",
+      "empresa": "Codigo Con Juan"
+    },
+    {
+      "id": "068d",
+      "nombre": "Gerardo",
+      "empresa": "Curso React",
+      "email": "gerardollanos@protonmail.com",
+      "telefono": "+56934212612",
+      "notas": "Agregado desde REACT"
+    }
+  ]
+}

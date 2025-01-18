@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2&display=swap');
+
+
+:root {
+    --color-fondo: #f13e2d; /* Cambia el valor a tu color deseado */
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Baloo Thambi 2', cursive;
+    font-weight: 300;
+    color: #fff;
+    background-color: var(--color-fondo);
+}
+  
+
+.nav{
+    height: 80px;
+    /* background-color: #aa3e3e; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__img{
+    display: block;
+    width: 90px;
+}
+
+.nav__links__container{
+    width: 30%;
+}
+
+.nav__links{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cta__link{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*  */
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: calc(100vh - 80px);
+  }
+  
+.header-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.header__tilte{
+    font-size: 4rem;
+    width: 80%;
+    line-height: 4rem;
+    
+}
+
+
+.highlight {
+    color: #e6d92d; /* Color de resaltado para "Good" */
+    font-weight: 700;
+}
+
+p {
+    text-align: left;
+    width: 80%;
+    margin-top: 10px;
+}
+
+.order-button {
+    width: 40%;
+    padding: 15px 20px;
+    background-color: #fff;
+    color: #444444;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.social-icons a{
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.image-container {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  .nuggets-img,
+  .papa-frita-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+  
+  .nuggets-img {
+    position: absolute;
+    margin-left: 200px;
+  }
+  
+  .papa-frita-img {
+    /* height: 115%; */
+    z-index: 1;
+    position: relative;
+    margin-right: 200px;
+    /* margin-top: -50px; */
+  }
+
+

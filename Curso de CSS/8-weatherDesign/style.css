@@ -1,0 +1,140 @@
+:root{
+    --bg-color: #04293c;
+    --font-color: #04293ce1;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    color: var(--font-color);
+}
+
+.card__contanier{
+    /* margin: 0 auto; */
+    width: 250px;
+    /* height: 400px; */
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.534);
+}
+
+.card__top{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    justify-content: space-between;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    /* background-color: aqua; */
+}
+
+.location__place{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: var(--font-color);
+}
+
+.search{
+    background-color: #ddf8fa;
+    width: 30px;
+    height: 100%;
+    /* padding: 8px; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__icon{
+    
+    color: var(--font-color);
+    font-size: .8rem;
+}
+
+.card__info{
+    /* background-color: #b1b1b1; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 32px 0;
+}
+.weather__bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.weather__img{
+    width: 60%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.weather__temp{
+    display: flex;
+    align-items: top;
+    line-height: 1;
+}
+
+.weather__grades{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.weather__celsius{
+    font-weight: 800;
+    font-size: .8rem;
+}
+
+.weather__text{
+    font-size: .8rem;
+}
+
+.card__bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.weather__fotter{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.wehater__info__bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.bottom__icon{
+    font-size: 1rem;
+}
+
+.bottom__desc{
+    font-size: .6rem;
+}

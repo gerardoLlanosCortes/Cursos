@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inpunt__container{
+    margin: 20px auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #00000075;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.input__text__container {
+    flex-grow: 1;
+}
+
+input{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.input__text:focus{
+    outline: none;
+}
+
+.input__icons{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+    color: #00000075;
+}
+
+a{
+    text-decoration: none;
+    color: #00000075;
+}
+
+.inpunt__container:focus-within {
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+}
